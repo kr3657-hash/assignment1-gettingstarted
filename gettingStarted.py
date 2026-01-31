@@ -14,7 +14,7 @@ def welcome_assignment_answers(question):
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No";
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "No";
+        answer = "Yes";
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "No";
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
@@ -51,7 +51,8 @@ if __name__ == "__main__":
 #"What is the SHA256 hashing value of your NYU email and use the answer in your code - ": 8797c05a6c6936211ff56fc4869b6f7dc7b09a494cc59039783ccdd932288bfb
 #"Is MD5 a secured hashing algorithm? - Yes/No": No
 #"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number": 5
-#"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number": 2
+#"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":2
+
 
 
 
